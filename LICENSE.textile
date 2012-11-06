@@ -2,11 +2,11 @@ h1. Continuum License
 
 By purchasing, downloading or using any of the add-ons developed by PutYourLightsOn you agree to be bound by the terms and conditions of this license. We reserve the right to alter this agreement at any time, for any reason, without notice.
 
-#One commercial license grants the right to perform one installation of the add-on. Each additional installation requires an additional purchased license.
-#You may not reproduce, distribute, sell or transfer any add-ons, or portions thereof, to any third party, unless the add-on is explicitly distributed under the Creative Commons Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0) license.
-#All copyright and proprietary notices within the add-on source files must remain intact and unaltered.
-#All add-ons are provided "as is", without warranty of any kind.
-#You assume all risk associated with the installation and use of all add-ons.
+# One commercial license grants the right to perform one installation of the add-on. Each additional installation requires an additional purchased license.
+# You may not reproduce, distribute, sell or transfer any add-ons, or portions thereof, to any third party, unless the add-on is explicitly distributed under the Creative Commons Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0) license.
+# All copyright and proprietary notices within the add-on source files must remain intact and unaltered.
+# All add-ons are provided "as is", without warranty of any kind.
+# You assume all risk associated with the installation and use of all add-ons.
 
 *Disclaimer Of Warranty*
 The software is provided "as is", without warranty of any kind, expressed or implied, including, but not limited to, warranties of quality, performance, non-infringement, merchantability, or fitness for a particular purpose. Further, we do not warrant that the software or any related service will always be available.
