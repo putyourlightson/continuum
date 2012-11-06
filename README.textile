@@ -1,0 +1,7 @@
+h1. Continuum
+
+Continuum is a real-time visitor tracking add-on. It works by logging visits and other actions on your website, collecting data about each user and their navigation patterns which can be literally viewed in real-time, as well as viewed at any time in the future.
+
+View the full docs here:
+
+"http://www.putyourlightson.net/continuum/docs":http://www.putyourlightson.net/continuum/docs
