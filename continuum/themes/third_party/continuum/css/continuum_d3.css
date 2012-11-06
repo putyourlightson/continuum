@@ -1,0 +1,46 @@
+path.link {
+	fill: none;
+	stroke: #666;
+	stroke-width: 1.5px;
+}
+
+marker#licensing {
+	fill: green;
+}
+
+path.link.licensing {
+	stroke: green;
+}
+
+path.link.resolved {
+	stroke-dasharray: 0,2 1;
+}
+
+circle {
+	fill: #006380;
+	stroke: #333;
+	stroke-width: 1.5px;
+}
+
+circle.visit {
+	fill: gray;
+}
+
+circle.landing {
+	fill: green;
+}
+
+circle.exit {
+	fill: maroon;
+}
+
+text {
+	font: 10px sans-serif;
+	pointer-events: none;
+}
+
+text.shadow {
+	stroke: #fff;
+	stroke-width: 3px;
+	stroke-opacity: .8;
+}

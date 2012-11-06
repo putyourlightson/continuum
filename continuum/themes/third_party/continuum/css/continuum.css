@@ -1,0 +1,50 @@
+#continuum .chzn-container a {
+	color: #444 !important;
+}
+
+#continuum .chzn-container a:hover {
+	text-decoration: none !important;
+}
+
+#continuum .chzn-select {
+	width: 120px;
+}
+
+#continuum .chzn-select.user_id {
+	width: 160px;
+}
+
+#continuum .chzn-select.url_id {
+	width: 350px;
+}
+
+#continuum .visualise_buttons {
+	float: right;
+}
+
+#continuum td span.action {
+	color: #006380;
+}
+
+#continuum td span.visit {
+	color: gray;
+}
+
+#continuum td span.landing {
+	color: green;
+}
+
+#continuum td span.exit {
+	color: maroon;
+}
+
+#continuum td a img {
+	display: none;
+	position: absolute;
+	margin: 0 0 -2px 4px;
+	height: 13px;
+}
+
+#continuum td:hover a img {
+	display: inline;
+}
