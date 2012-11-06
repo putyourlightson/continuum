@@ -1,5 +1,9 @@
 h1. Continuum License
 
+Continuum is covered by the "Creative Commons Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0)":http://creativecommons.org/licenses/by-sa/3.0/ license.
+
+h2. Terms and Conditions
+
 By purchasing, downloading or using any of the add-ons developed by PutYourLightsOn you agree to be bound by the terms and conditions of this license. We reserve the right to alter this agreement at any time, for any reason, without notice.
 
 # One commercial license grants the right to perform one installation of the add-on. Each additional installation requires an additional purchased license.
