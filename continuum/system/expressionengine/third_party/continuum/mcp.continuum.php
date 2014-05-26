@@ -44,8 +44,15 @@ class Continuum_mcp {
 		
 		$this->EE->jquery->plugin(BASE.AMP.'C=javascript'.AMP.'M=load'.AMP.'plugin=tablesorter', TRUE);
 		$this->EE->jquery->tablesorter('.mainTable', '{widgets: ["zebra"]}');
-		
-		$this->EE->cp->set_variable('cp_page_title', $this->EE->lang->line('continuum_module_name'));
+		              
+		if (version_compare(APP_VER, '2.6.0', '>='))
+		{
+			$this->EE->view->cp_page_title = $this->EE->lang->line('continuum_module_name');
+		}
+		else
+		{
+			$this->EE->cp->set_variable('cp_page_title', $this->EE->lang->line('continuum_module_name'));
+		}		
 		
 		$this->EE->cp->set_right_nav(array(				
 				'clear_anonymous_log' => BASE.AMP.'C=addons_modules'.AMP.'M=show_module_cp'.AMP.'module=continuum'.AMP.'method=clear_log_confirm'.AMP.'entire=0',
@@ -299,8 +306,16 @@ class Continuum_mcp {
 		$this->EE->load->library('table');
 		                
 		$this->EE->cp->set_breadcrumb(BASE.AMP.'C=addons_modules'.AMP.'M=show_module_cp'.AMP.'module=continuum', $this->EE->lang->line('continuum_module_name'));
-		$this->EE->cp->set_variable('cp_page_title', $this->EE->lang->line('settings'));
-		
+		              
+		if (version_compare(APP_VER, '2.6.0', '>='))
+		{
+			$this->EE->view->cp_page_title = $this->EE->lang->line('settings');
+		}
+		else
+		{
+			$this->EE->cp->set_variable('cp_page_title', $this->EE->lang->line('settings'));
+		}
+
 		// get template groups
 		$this->EE->db->select('group_id, group_name');
 		$this->EE->db->where('site_id', $this->EE->config->item('site_id'));		
